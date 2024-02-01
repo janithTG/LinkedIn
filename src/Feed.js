@@ -26,7 +26,7 @@ function Feed() {
 
     // Unsubscribe when the component unmounts or when you no longer need updates
     return () => unsubscribe();
-  }, []);
+  }, [db]);
 
   const sendPost = async (e) => {
     e.preventDefault();

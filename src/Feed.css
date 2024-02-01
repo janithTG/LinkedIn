@@ -1,7 +1,5 @@
-.feed{
-    flex: 0.6;
-    margin: 0 20px;
-}
+.Feed {   flex: 1; 
+    margin: 0;/* Takes the remaining space */}
 
 .feed_inputContainer{
     background-color: white;
